@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d2a900524a34a216d9ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "hexabot_msgs__py",
+					"jsonFile" : "directory-hexabot_msgs__py-a664c9e0c0c2ecdcdd56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hesham/hexapod_ws/build/hexabot_msgs/hexabot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hexabot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hexabot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hexabot_msgs_egg-62b04657d77fd9774510.json",
+					"name" : "ament_cmake_python_build_hexabot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hexabot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hexabot_msgs-3081ab8a3df72c9cc032.json",
+					"name" : "ament_cmake_python_copy_hexabot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs-c0b157baab92185d1ad8.json",
+					"name" : "hexabot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__cpp-b3b29435061466e98053.json",
+					"name" : "hexabot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hexabot_msgs__py::@63ea33187687ebe5186d",
+					"jsonFile" : "target-hexabot_msgs__py-8b6ccf6794b32b64a9d3.json",
+					"name" : "hexabot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_generator_c-d702ba58af34aa21d0b3.json",
+					"name" : "hexabot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_generator_py-133a186b9ce542e1c5e1.json",
+					"name" : "hexabot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_c-36adfc9b34ff48e4d398.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_c__pyext-c7deb7547d580a7dbf31.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_cpp-b8c22bd0135bc0d69ab5.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_fastrtps_c-79b95208e6586ed5afda.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_fastrtps_c__pyext-b665261a73cf5e0d7339.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_fastrtps_cpp-0d49377cdee440d18c74.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_introspection_c-bccfda6f7b90085466a1.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_introspection_c__pyext-baefd55400098abc9035.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs__rosidl_typesupport_introspection_cpp-6ae694ccf50991bc3cda.json",
+					"name" : "hexabot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexabot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexabot_msgs_uninstall-3c5594e607bd4edaee6d.json",
+					"name" : "hexabot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8fc9e3f730cb0d8cc34f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hesham/hexapod_ws/build/hexabot_msgs",
+		"source" : "/home/hesham/hexapod_ws/src/hexabot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

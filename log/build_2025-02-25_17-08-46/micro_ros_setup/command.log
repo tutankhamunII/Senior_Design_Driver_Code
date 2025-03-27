@@ -1,0 +1,6 @@
+Invoking command in '/home/hesham/hexapod_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hesham/hexapod_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/hesham/hexapod_ws/install/micro_ros_setup
+Invoked command in '/home/hesham/hexapod_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hesham/hexapod_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/hesham/hexapod_ws/install/micro_ros_setup
+Invoking command in '/home/hesham/hexapod_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hesham/hexapod_ws/build/micro_ros_setup -- -j8 -l8
+Invoked command in '/home/hesham/hexapod_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hesham/hexapod_ws/build/micro_ros_setup -- -j8 -l8
+Invoking command in '/home/hesham/hexapod_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hesham/hexapod_ws/build/micro_ros_setup
+Invoked command in '/home/hesham/hexapod_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hesham/hexapod_ws/build/micro_ros_setup

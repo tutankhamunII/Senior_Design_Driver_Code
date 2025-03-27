@@ -1,0 +1,6 @@
+{
+  "package_name": "hexabot_msgs",
+  "non_idl_tuples": [
+    "/home/hesham/hexapod_ws/src/hexabot_msgs:msg/ActuatorPositions.msg"
+  ]
+}

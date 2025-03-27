@@ -1,0 +1,17 @@
+{
+  "package_name": "hexabot_msgs",
+  "output_dir": "/home/hesham/hexapod_ws/build/hexabot_msgs/rosidl_typesupport_cpp/hexabot_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/hesham/hexapod_ws/build/hexabot_msgs/rosidl_adapter/hexabot_msgs:msg/ActuatorPositions.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/hesham/hexapod_ws/build/hexabot_msgs/rosidl_adapter/hexabot_msgs/msg/ActuatorPositions.idl"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hexabot_msgs__py",
+		"source" : "/home/hesham/hexapod_ws/build/hexabot_msgs/hexabot_msgs__py"
+	}
+}

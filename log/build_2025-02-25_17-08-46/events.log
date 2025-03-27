@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.000187] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.006581] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.006991] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/home/hesham/hexapod_ws/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/home/hesham/hexapod_ws/install/micro_ros_setup'], 'cwd': '/home/hesham/hexapod_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hesham'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hesham'), ('OLDPWD', '/home/hesham'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1892'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hesham'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hesham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hexapod:@/tmp/.ICE-unix/1714,unix/hexapod:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b800de2b_ad58_4c75_bdb7_3983f0691462'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C0X912'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hesham/hexapod_ws/build/micro_ros_setup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093889] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099427] (-) TimerEvent: {}
+[0.182303] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.189742] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199574] (-) TimerEvent: {}
+[0.258857] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.265698] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.265966] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.266346] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.269172] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299657] (-) TimerEvent: {}
+[0.347476] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.354778] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.355099] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.355525] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.357738] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399735] (-) TimerEvent: {}
+[0.496434] (micro_ros_setup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499844] (-) TimerEvent: {}
+[0.576941] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.599976] (-) TimerEvent: {}
+[0.648146] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.671524] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.674660] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.676399] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.689103] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.690331] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.693233] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[0.694898] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/hesham/hexapod_ws/build/micro_ros_setup\n'}
+[0.699113] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.699618] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.700877] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hesham/hexapod_ws/build/micro_ros_setup', '--', '-j8', '-l8'], 'cwd': '/home/hesham/hexapod_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hesham'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hesham'), ('OLDPWD', '/home/hesham'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1892'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hesham'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hesham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hexapod:@/tmp/.ICE-unix/1714,unix/hexapod:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b800de2b_ad58_4c75_bdb7_3983f0691462'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C0X912'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hesham/hexapod_ws/build/micro_ros_setup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.701369] (-) TimerEvent: {}
+[0.738745] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.739323] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.748307] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hesham/hexapod_ws/build/micro_ros_setup'], 'cwd': '/home/hesham/hexapod_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hesham'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hesham'), ('OLDPWD', '/home/hesham'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1892'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hesham'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hesham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hexapod:@/tmp/.ICE-unix/1714,unix/hexapod:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b800de2b_ad58_4c75_bdb7_3983f0691462'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C0X912'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hesham/hexapod_ws/build/micro_ros_setup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.755275] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.755441] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.755709] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.755926] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.756086] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.756232] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.756384] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.756498] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.756671] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.756798] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.756913] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.757019] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.757140] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.757297] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.757403] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.757523] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.757721] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config\n'}
+[0.757881] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.757973] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.758090] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.758212] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.758333] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.758448] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.758565] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.758673] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.758766] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.758859] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.758972] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.759099] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.759156] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.759212] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.759268] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.759341] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.759404] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.759477] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.759581] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.759687] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.759814] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.759872] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.759937] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.760001] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.760113] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.760215] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.760285] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.760362] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.760475] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.760635] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.760720] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.760856] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.760941] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.761053] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.761166] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.761272] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.761405] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.761483] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.761628] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.761733] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.761839] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.761908] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.761992] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.762073] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.762175] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.762286] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.762395] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.762509] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.762692] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.762786] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.762860] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.762930] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.763010] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.763123] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.763223] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.763299] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.763369] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.763452] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.763598] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.763715] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.763831] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.763906] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.763996] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.764104] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.764213] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.764287] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.764356] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.764465] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.764604] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.764710] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.764786] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.764898] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.765009] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.765116] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.765194] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.765262] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.765372] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.765481] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.765635] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.765746] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.765854] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.765926] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.766030] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.766151] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.766224] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.766294] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.766403] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.766516] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.766652] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.766727] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.766845] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.766953] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.767058] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.767152] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.767223] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.767307] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.767421] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.767609] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.767751] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.767880] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.767953] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.768053] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.768178] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.768259] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.768336] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.768457] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.768628] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.768738] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.768839] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.768919] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.769028] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.769138] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.769246] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.769319] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.769390] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.769497] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.769618] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.769745] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.769895] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.770019] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android\n'}
+[0.770083] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.770149] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.770259] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.770369] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.770481] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.770609] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.770716] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.770825] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.770942] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.771046] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.771153] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.771265] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host\n'}
+[0.771336] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.771414] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.771529] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.771643] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.771752] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.771863] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.771968] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.772077] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.772185] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.772296] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.772405] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed\n'}
+[0.772472] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[0.772571] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[0.772716] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[0.772850] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[0.772982] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[0.773085] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[0.773193] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[0.773299] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[0.773406] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[0.773523] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[0.773653] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[0.773859] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.773975] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.774074] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.774177] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.774285] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.774389] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.774491] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.774607] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.774709] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.774811] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/hesham/hexapod_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.776775] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.792486] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.793186] (-) EventReactorShutdown: {}
