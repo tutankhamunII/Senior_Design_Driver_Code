@@ -1,8 +1,8 @@
-# Install script for directory: /home/hesham/hexapod_ws/build/hexabot_msgs/hexabot_msgs__py
+# Install script for directory: /home/hesham/Senior Design/Senior_Design_Driver_Code/build/hexabot_msgs/hexabot_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hesham/hexapod_ws/install/hexabot_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/hesham/Senior Design/Senior_Design_Driver_Code/install/hexabot_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,8 +1,0 @@
-float32 actuator_1_position
-float32 actuator_2_position
-float32 actuator_3_position
-float32 actuator_4_position
-float32 actuator_5_position
-float32 actuator_6_position
-float32 servo_position
-

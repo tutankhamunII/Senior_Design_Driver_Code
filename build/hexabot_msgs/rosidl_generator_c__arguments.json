@@ -1,9 +1,9 @@
 {
   "package_name": "hexabot_msgs",
-  "output_dir": "/home/hesham/hexapod_ws/build/hexabot_msgs/rosidl_generator_c/hexabot_msgs",
+  "output_dir": "/home/hesham/Senior Design/Senior_Design_Driver_Code/build/hexabot_msgs/rosidl_generator_c/hexabot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/hesham/hexapod_ws/build/hexabot_msgs/rosidl_adapter/hexabot_msgs:msg/ActuatorPositions.idl"
+    "/home/hesham/Senior Design/Senior_Design_Driver_Code/build/hexabot_msgs/rosidl_adapter/hexabot_msgs:msg/ActuatorPositions.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/hesham/hexapod_ws/build/hexabot_msgs/rosidl_adapter/hexabot_msgs/msg/ActuatorPositions.idl"
+    "/home/hesham/Senior Design/Senior_Design_Driver_Code/build/hexabot_msgs/rosidl_adapter/hexabot_msgs/msg/ActuatorPositions.idl"
   ]
 }
