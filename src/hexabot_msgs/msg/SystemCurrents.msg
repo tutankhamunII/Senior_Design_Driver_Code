@@ -1,0 +1,9 @@
+float32 actuator_1_current
+float32 actuator_2_current
+float32 actuator_3_current
+float32 actuator_4_current
+float32 actuator_5_current
+float32 actuator_6_current
+float32 servo_current
+float32 system_current
+

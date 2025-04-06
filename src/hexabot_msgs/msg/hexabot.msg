@@ -1,0 +1,4 @@
+hexabot_msgs/Diagnostics Diagnostics
+hexabot_msgs/ActuatorPositions actuator_positions
+hexabot_msgs/SystemCurrents currents 
+hexabot_msgs/SystemTemperature temperatures
