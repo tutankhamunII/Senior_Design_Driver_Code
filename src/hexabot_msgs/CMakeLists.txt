@@ -13,6 +13,10 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/ActuatorPositions.msg"
+	"msg/Diagnostics.msg"
+	"msg/SystemCurrents.msg"
+	"msg/SystemTemperatures.msg"
+	"msg/Hexabot.msg"
 )
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

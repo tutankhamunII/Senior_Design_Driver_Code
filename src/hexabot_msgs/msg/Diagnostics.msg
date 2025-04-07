@@ -1,6 +1,6 @@
 bool main_power_status
 bool analog_switch_status
-bool Estop_status
+bool estop_status
 bool voltage_translator_status
 bool actuator_1_power
 bool actuator_2_power
@@ -9,8 +9,8 @@ bool actuator_4_power
 bool actuator_5_power
 bool actuator_6_power
 bool servo_power
-int32 power_LED
-int32 communication_LED
+int32 power_led
+int32 communication_led
 
 
 
