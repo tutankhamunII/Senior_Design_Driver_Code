@@ -34,9 +34,9 @@ void hexabot_driver::actuator_positions_callback(const std_msgs::msg::Float32Mul
 }
 void hexabot_driver::system_currents_callback(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
 {
-  //if(std::fabs(msg->data[8] - 3.14) < 1e-5){
+  if(std::fabs(msg->data[8] - 3.14) < 1e-5){
     system_currents_teensy = *msg;
-  //}
+  }
 }
 void hexabot_driver::system_temperatures_callback(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
 {
@@ -46,7 +46,7 @@ void hexabot_driver::system_temperatures_callback(const std_msgs::msg::Float32Mu
 }
 void hexabot_driver::diagnostics_callback(const std_msgs::msg::UInt8MultiArray::SharedPtr msg)
 {
-  if(std::fabs(msg->data[13] - 3.14) < 1e-5){
+  if(msg->data[13] == 5){
     diagnostics_teensy = *msg;
   }
 }
@@ -86,6 +86,7 @@ void hexabot_driver::formate_hexabot_message()
   }
   if(diagnostics_teensy.data.size() == 14){
     //populate the diagnostics driver message with data from teesny
+    
     diagnostics_driver.actuator_1_power = diagnostics_teensy.data[0];
     diagnostics_driver.actuator_2_power = diagnostics_teensy.data[1];
     diagnostics_driver.actuator_3_power = diagnostics_teensy.data[2];
