@@ -14,6 +14,10 @@ find_package(hexabot_msgs REQUIRED)
 install(DIRECTORY include/
   DESTINATION include
 )
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
 add_executable(
 hexabot_node src/hexabot_node.cpp
 src/hexabot_driver.cpp)
