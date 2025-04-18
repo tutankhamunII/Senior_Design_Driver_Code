@@ -1,0 +1,26 @@
+#leg lengths are in millimeters and time is in secodns
+#Request
+int32 leg_1_length
+int32 leg_2_length
+int32 leg_3_length
+int32 leg_4_length
+int32 leg_5_length
+int32 leg_6_length
+int32 time
+---
+#Result
+int32 final_leg_1_lenght
+int32 final_leg_2_lenght
+int32 final_leg_3_lenght
+int32 final_leg_4_lenght
+int32 final_leg_5_lenght
+int32 final_leg_6_lenght
+---
+#Feedback
+int32 current_leg_1_lenght
+int32 current_leg_2_lenght
+int32 current_leg_3_lenght
+int32 current_leg_4_lenght
+int32 current_leg_5_lenght
+int32 current_leg_6_lenght
+int32 current_time
