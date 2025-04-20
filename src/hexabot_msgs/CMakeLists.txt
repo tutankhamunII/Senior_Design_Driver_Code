@@ -17,6 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/SystemCurrents.msg"
 	"msg/SystemTemperatures.msg"
 	"msg/Hexabot.msg"
+  "action/DirectCommand.action"
+  "action/PoseCommand.action"
 )
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

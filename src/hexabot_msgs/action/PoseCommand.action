@@ -1,0 +1,25 @@
+#Request
+float32 x
+float32 y
+float32 z
+float32 roll
+float32 pitch
+float32 yaw
+int32 time
+---
+#Result
+int32 final_leg_1_lenght
+int32 final_leg_2_lenght
+int32 final_leg_3_lenght
+int32 final_leg_4_lenght
+int32 final_leg_5_lenght
+int32 final_leg_6_lenght
+---
+#Feedback 
+int32 current_leg_1_lenght
+int32 current_leg_2_lenght
+int32 current_leg_3_lenght
+int32 current_leg_4_lenght
+int32 current_leg_5_lenght
+int32 current_leg_6_lenght
+int32 current_time
