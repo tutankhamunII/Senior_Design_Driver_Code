@@ -12,7 +12,7 @@ hexabot_driver::hexabot_driver() : Node("hexabot_node"), count(0)
   system_currents_subscriber = this->create_subscription<std_msgs::msg::Float32MultiArray>("/teensy/system_currents", 10, std::bind(&hexabot_driver::system_currents_callback, this, _1));
   system_temperatures_subscriber = this->create_subscription<std_msgs::msg::Float32MultiArray>("/teensy/system_temperatures", 10, std::bind(&hexabot_driver::system_temperatures_callback, this, _1));
   diagnostics_subscriber = this->create_subscription<std_msgs::msg::UInt8MultiArray>("/teensy/diagnostics", 10, std::bind(&hexabot_driver::diagnostics_callback, this, _1));
-  hexabot_message_publisher = this->create_publisher<hexabot_msgs::msg::Hexabot>("hexabot_feedback", 10);
+  hexabot_message_publisher = this->create_publisher<hexabot_msgs::msg::Hexabot>("/hexabot_feedback", 10);
   heart_beat_publisher = this->create_publisher<std_msgs::msg::Empty>("/hexabot_driver/heart_beat", 10);
   hexabot_message_timer = this->create_wall_timer(2000ms, std::bind(&hexabot_driver::hexabot_message_timer_callback, this));
   heart_beat_timer = this->create_wall_timer(100ms, std::bind(&hexabot_driver::heart_beat_timer_callback, this));
