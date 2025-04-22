@@ -5,6 +5,7 @@
 #include "std_msgs/msg/float32_multi_array.hpp"
 #include "std_msgs/msg/u_int8_multi_array.hpp"
 #include "std_msgs/msg/empty.hpp"
+#include "std_msgs/msg/int32_multi_array.hpp"
 #include "hexabot_msgs/msg/hexabot.hpp"
 #include "hexabot_msgs/msg/system_currents.hpp"
 #include "hexabot_msgs/msg/system_temperatures.hpp"
@@ -23,6 +24,7 @@ class hexabot_driver : public rclcpp::Node
     std_msgs::msg::Float32MultiArray system_currents_teensy;
     std_msgs::msg::Float32MultiArray system_temperatures_teensy ;
     std_msgs::msg::UInt8MultiArray diagnostics_teensy;
+    std_msgs::msg::Int32MultiArray motion_command_teensy;
     hexabot_msgs::msg::Hexabot hexabot_message;
     hexabot_msgs::msg::ActuatorPositions actuator_positions_driver;
     hexabot_msgs::msg::Diagnostics diagnostics_driver;
@@ -32,6 +34,8 @@ class hexabot_driver : public rclcpp::Node
     rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr system_currents_subscriber;
     rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr system_temperatures_subscriber;
     rclcpp::Subscription<std_msgs::msg::UInt8MultiArray>::SharedPtr diagnostics_subscriber;
+    rclcpp::Subscription<hexabot_msgs::msg::ActuatorPositions>::SharedPtr positions_command_subscriber;
+    rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr motion_command_publisher;
     rclcpp::Publisher<hexabot_msgs::msg::Hexabot>::SharedPtr hexabot_message_publisher;
     rclcpp::Publisher<std_msgs::msg::Empty>::SharedPtr heart_beat_publisher;
     rclcpp::TimerBase::SharedPtr hexabot_message_timer;
@@ -44,4 +48,5 @@ class hexabot_driver : public rclcpp::Node
     void system_currents_callback(const std_msgs::msg::Float32MultiArray::SharedPtr msg);
     void system_temperatures_callback(const std_msgs::msg::Float32MultiArray::SharedPtr msg);
     void diagnostics_callback(const std_msgs::msg::UInt8MultiArray::SharedPtr msg);
+    void move_actuators_callback(const hexabot_msgs::msg::ActuatorPositions::SharedPtr msg);
 };

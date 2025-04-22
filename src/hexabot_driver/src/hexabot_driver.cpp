@@ -12,10 +12,12 @@ hexabot_driver::hexabot_driver() : Node("hexabot_node"), count(0)
   system_currents_subscriber = this->create_subscription<std_msgs::msg::Float32MultiArray>("/teensy/system_currents", 10, std::bind(&hexabot_driver::system_currents_callback, this, _1));
   system_temperatures_subscriber = this->create_subscription<std_msgs::msg::Float32MultiArray>("/teensy/system_temperatures", 10, std::bind(&hexabot_driver::system_temperatures_callback, this, _1));
   diagnostics_subscriber = this->create_subscription<std_msgs::msg::UInt8MultiArray>("/teensy/diagnostics", 10, std::bind(&hexabot_driver::diagnostics_callback, this, _1));
+  positions_command_subscriber = this->create_subscription<hexabot_msgs::msg::ActuatorPositions>("/hexabot_driver/direct_command", 10, std::bind(&hexabot_driver::move_actuators_callback,this, _1));
   hexabot_message_publisher = this->create_publisher<hexabot_msgs::msg::Hexabot>("/hexabot_feedback", 10);
   heart_beat_publisher = this->create_publisher<std_msgs::msg::Empty>("/hexabot_driver/heart_beat", 10);
-  hexabot_message_timer = this->create_wall_timer(2000ms, std::bind(&hexabot_driver::hexabot_message_timer_callback, this));
-  heart_beat_timer = this->create_wall_timer(100ms, std::bind(&hexabot_driver::heart_beat_timer_callback, this));
+  motion_command_publisher = this->create_publisher<std_msgs::msg::Int32MultiArray>("/hexabot_driver/actuator_duty_cycle", 10);
+  hexabot_message_timer = this->create_wall_timer(50ms, std::bind(&hexabot_driver::hexabot_message_timer_callback, this));
+  heart_beat_timer = this->create_wall_timer(20ms, std::bind(&hexabot_driver::heart_beat_timer_callback, this));
 }
 
 void hexabot_driver::heart_beat_timer_callback(){
@@ -28,27 +30,27 @@ void hexabot_driver::hexabot_message_timer_callback(){
 }
 void hexabot_driver::actuator_positions_callback(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
 {
-  if(std::fabs(msg->data[7] - 3.14) < 1e-5){
+  //if(std::fabs(msg->data[7] - 3.14) < 1e-5){
     actuator_positions_teensy = *msg;
-  }
+  //}
 }
 void hexabot_driver::system_currents_callback(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
 {
-  if(std::fabs(msg->data[8] - 3.14) < 1e-5){
+  //if(std::fabs(msg->data[8] - 3.14) < 1e-5){
     system_currents_teensy = *msg;
-  }
+  //}
 }
 void hexabot_driver::system_temperatures_callback(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
 {
-  if(std::fabs(msg->data[2] - 3.14) < 1e-5){
+  //if(std::fabs(msg->data[2] - 3.14) < 1e-5){
     system_temperatures_teensy = *msg;
-  }
+  //}
 }
 void hexabot_driver::diagnostics_callback(const std_msgs::msg::UInt8MultiArray::SharedPtr msg)
 {
-  if(msg->data[13] == 5){
+  //if(msg->data[13] == 5){
     diagnostics_teensy = *msg;
-  }
+  //}
 }
 void hexabot_driver::formate_hexabot_message()
 {
@@ -66,14 +68,14 @@ void hexabot_driver::formate_hexabot_message()
   }
   if(system_currents_teensy.data.size() == 9){
     //populate the system current dirver message with data from teensy
-    system_currents_driver.actuator_1_current = system_currents_teensy.data[0];
-    system_currents_driver.actuator_2_current = system_currents_teensy.data[1];
-    system_currents_driver.actuator_3_current = system_currents_teensy.data[2];
-    system_currents_driver.actuator_4_current = system_currents_teensy.data[3];
-    system_currents_driver.actuator_5_current = system_currents_teensy.data[4];
-    system_currents_driver.actuator_6_current = system_currents_teensy.data[5];
-    system_currents_driver.servo_current = system_currents_teensy.data[6];
-    system_currents_driver.system_current = system_currents_teensy.data[7];
+    system_currents_driver.actuator_1_current = 1000 * system_currents_teensy.data[0];
+    system_currents_driver.actuator_2_current = 1000 * system_currents_teensy.data[1];
+    system_currents_driver.actuator_3_current = 1000 * system_currents_teensy.data[2];
+    system_currents_driver.actuator_4_current = 1000 * system_currents_teensy.data[3];
+    system_currents_driver.actuator_5_current = 1000 * system_currents_teensy.data[4];
+    system_currents_driver.actuator_6_current = 1000 * system_currents_teensy.data[5];
+    system_currents_driver.servo_current = 1000 * system_currents_teensy.data[6];
+    system_currents_driver.system_current = 1000 * system_currents_teensy.data[7];
     //add the populated message to the higher level hexabot message
     hexabot_message.currents = system_currents_driver;
   }
@@ -103,4 +105,18 @@ void hexabot_driver::formate_hexabot_message()
     //add the populated message to the higher level hexabot message
     hexabot_message.diagnostics = diagnostics_driver;
   }
+}
+
+void hexabot_driver::move_actuators_callback(const hexabot_msgs::msg::ActuatorPositions::SharedPtr msg){
+  //YOU HAVE TO CHANGE THIS LOGIC FOR THE NEW TRANSLATOR
+  motion_command_teensy.data.resize(6);
+  motion_command_teensy.data[0] = ((msg->actuator_1_position) / 26) * 32757; 
+  motion_command_teensy.data[1] = ((msg->actuator_2_position) / 26) * 32757; 
+  motion_command_teensy.data[2] = ((msg->actuator_3_position) / 26) * 32757; 
+  motion_command_teensy.data[3] = ((msg->actuator_4_position) / 26) * 32757; 
+  motion_command_teensy.data[4] = ((msg->actuator_5_position) / 26) * 32757; 
+  motion_command_teensy.data[5] = ((msg->actuator_6_position) / 26) * 32757; 
+  //motion_command_teensy.data[6] = ((msg->servo_position) / 26) * 32757;
+  motion_command_publisher->publish(motion_command_teensy); 
+
 }
